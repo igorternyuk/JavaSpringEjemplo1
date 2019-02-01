@@ -1,0 +1,10 @@
+CREATE DATABASE Employees;
+USE Employees;
+CREATE TABLE Employee(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL ,
+    age INT NOT NULL,
+    salary INT NOT NULL
+);
+
+INSERT INTO Employees
